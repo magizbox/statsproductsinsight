@@ -27,7 +27,7 @@
 if (!defined('_PS_VERSION_'))
 	exit;
 
-class StatsProductInsights extends ModuleGrid
+class StatsProductsInsight extends ModuleGrid
 {
 	private $html = null;
 	private $query = null;
