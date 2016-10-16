@@ -54,12 +54,6 @@ class StatsProductsInsight extends ModuleGrid
 
 		$this->columns = array(
 			array(
-				'id' => 'reference',
-				'header' => $this->l('Reference'),
-				'dataIndex' => 'reference',
-				'align' => 'left'
-			),
-			array(
 				'id' => 'name',
 				'header' => $this->l('Name'),
 				'dataIndex' => 'name',
@@ -87,12 +81,6 @@ class StatsProductsInsight extends ModuleGrid
 				'id' => 'averageQuantitySold',
 				'header' => $this->l('Quantity sold in a day'),
 				'dataIndex' => 'averageQuantitySold',
-				'align' => 'center'
-			),
-			array(
-				'id' => 'totalPageViewed',
-				'header' => $this->l('Page views'),
-				'dataIndex' => 'totalPageViewed',
 				'align' => 'center'
 			),
 			array(
